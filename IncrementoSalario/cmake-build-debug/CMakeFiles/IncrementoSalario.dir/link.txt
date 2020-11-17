@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/IncrementoSalario.dir/main.cpp.o  -o IncrementoSalario 

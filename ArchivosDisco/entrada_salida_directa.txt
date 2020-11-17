@@ -1,0 +1,38 @@
+Se usa E/S directa de archivo principalmente cuando se guardan datos que van a ser leídos
+posteriormente por el mismo u otro programa en C. La E/S directa se usa solamente con
+archivos en modo binario. Con salida directa se escriben bloques de datos de memoria a
+disco. La entrada directa es el reverso del proceso: Un bloque de datos es leído de un
+archivo de disco hacia la memoria. Por ejemplo una sola llamada de función de salida
+directa puede escribir una arreglo completo de tipo double a disco, y una sola llamada de
+función de entrada directa puede leer un arreglo completo de disco hacia memoria.
+
+Las funciones E/S directa son: fread() & fwrite()
+
+fwrite():
+Escribe un bloque de datos de memoria a un archivo en modo binario, su prototipo está en
+el encabezado STDIO.H
+
+Prototipo:
+    int fwrite(void *buffer, int size, int count, FILE *fp);
+
+buffer es un apuntador a la región de memoria que guarda los datos que están escritos al
+archivo. El tipo de apuntador es void ya que puede apuntar a cualquier cosa.
+
+size especifica el tamaño de bytes en los elementos de datos individuales. y count especifica
+la cantidad de elementos que se han de escribir.
+
+Para escribir un arreglo datos[] de 50 estructuras de tipo dirección a un archivo se tienen
+dos alternativas:
+    1. fwrite(datos, sizeof(dirección), 50, archivo);
+    2. fwrite(datos, sizeof(datos), 1, archivo);
+
+El primer método escribe el arreglo como 50 elementos, donde cada elemento tiene el tamaño de
+de una sola estructura tipo dirección. El segundo método trata al arreglo como un solo elemento
+Los dos métodos ejecutan exactamente la misma cosa.
+
+fread():
+Lee un bloque de datos desde un archivo en modo binario hacia memoria, su prototipo está en el
+encabezado STDIO.H
+
+Prototipo:
+    int fread(void *buffer, int size, int count, FILE *fp);

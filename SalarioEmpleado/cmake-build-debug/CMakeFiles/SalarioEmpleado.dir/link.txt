@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/SalarioEmpleado.dir/main.c.o  -o SalarioEmpleado 

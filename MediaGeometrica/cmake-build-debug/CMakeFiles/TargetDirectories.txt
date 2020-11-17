@@ -1,0 +1,3 @@
+/home/welcome/Documentos/Proyectos/C/MediaGeometrica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/welcome/Documentos/Proyectos/C/MediaGeometrica/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/welcome/Documentos/Proyectos/C/MediaGeometrica/cmake-build-debug/CMakeFiles/MediaGeometrica.dir
