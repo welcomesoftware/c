@@ -75,7 +75,7 @@ int main() {
 			continue;
 
 		// mueve el indicador de posición al elemento especificado
-		if((fseek(archivo, (offset * sizeof(int)), SEEK_SET)) != NULL) {
+		if(fseek(archivo, (offset * sizeof(int)), SEEK_SET) != NULL) {
 			fprintf(stderr, "Error using fseek...\n");
 			exit(1);
 		}
