@@ -80,8 +80,9 @@ int main() {
 			exit(1);
 		}
 
-		// lee un solo entero y luego lo despliega en pantalla
+		// lee un solo entero, lo guarda en data
 		fread(&data, sizeof(int), 1, archivo);
+		// despliega el contenido de data en pantalla.
 		printf("Elemento %ld tiene el valor %d.\n", offset, data);
 
 	}
