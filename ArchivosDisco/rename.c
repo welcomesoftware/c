@@ -6,19 +6,22 @@
  *
  * int rename(const char *oldname, const char *newname);
  *
- * La función rename retorna 0 en caso satifactorio o -1 en caso de que haya sucedido 
+ * La función rename retorna 0 en caso satifactorio o -1 en caso de que haya sucedido
  * algún tipo de error:
  * 	El archivo *nombreanterior no existe.
  * 	Ya existe un archivo con *nombrenuevo.
  * 	Se trata de renombrar a otra unidad de disco.
- * 
+ *
  * Este programa hace uso de rename para el nombre de un archivo.
+ *
+ * Created by Darío Welcome <welcomedario9@gmail.com> on 19/11/20.
+ * Copyright © 2020 Darío Welcome. All rights reserved.
  */
 
 #include <stdio.h>
 
 int main() {
-    
+
     // variables del programa
     char oldname[80], newname[80];
 
@@ -29,7 +32,7 @@ int main() {
     gets(newname);
 
     // valida la funcion rename
-    if (rename(oldname, newname) == 0) 
+    if (rename(oldname, newname) == 0)
 	printf("El archivo %s ha sido renombrado como %s.\n", oldname, newname);
     else
 	fprintf(stderr, "Error renombrando el archivo %s...\n", oldname);

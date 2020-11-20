@@ -10,7 +10,7 @@
  * pueden haber tres valores para origen, con las constantes simbólicas definidas STDIO.H
  *
  * constantes:
- * 
+ *
  * 	constante	valor	significado
  *	=================================================================================
  * 	SEEK_SET	0	Mueve el indicador a un numero de bytes de desplazamiento
@@ -21,11 +21,14 @@
  *
  * 	SEEK_END	2	Mueve el indicador a un numero de bytes de desplazamiento
  * 				desde el final del archivo.
- * 
+ *
  * la función fseek() retorna 0 si el indicador fue movido satisfactoriamente, o diferente
  * de 0 si sucedió algún error.
  *
  * este programa usa fseek() para acceso al azar de una archivo.
+ *
+ * Created by Darío Welcome <welcomedario9@gmail.com> on 19/11/20.
+ * Copyright © 2020 Darío Welcome. All rights reserved.
  */
 
 #include <stdio.h>
@@ -87,7 +90,7 @@ int main() {
 
 	}
 	fclose(archivo);
-	
+
 	//termina el programa
 	return 0;
 }

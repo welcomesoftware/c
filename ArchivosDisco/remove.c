@@ -1,7 +1,7 @@
 /**
  * Programa: remove.c
  *
- * Para borrar un archivo se utiliza la función de biblioteca remove(). Su prototipo se encuentra 
+ * Para borrar un archivo se utiliza la función de biblioteca remove(). Su prototipo se encuentra
  * en el encabezado STDIO.H
  *
  * Prototipo:
@@ -12,20 +12,23 @@
  *
  * Este programa demuestra el uso de la función de biblioteca remove(), debe tener cuidado debido
  * a que si se borra un archivo importante, ese archivo se ha ido para siempre.
+ *
+ * Created by Darío Welcome <welcomedario9@gmail.com> on 19/11/20.
+ * Copyright © 2020 Darío Welcome. All rights reserved.
  */
 
 #include <stdio.h>
 #include <string.h>
 
 int main() {
-	
+
 	// variables del programa
 	char filename[80];
-	
+
 	// pide al usuario el nombre del archivo a borrar y lo almacena en una variable
 	puts("Ingrese el nombre del archivo a borrar:");
 	fgets(filename, 80, stdin);
-	
+
 	// reemplazo el salto de linea con un caracter nulo
 	if(filename[strlen(filename) - 1] == '\n')
 		filename[strlen(filename) - 1] = '\0';

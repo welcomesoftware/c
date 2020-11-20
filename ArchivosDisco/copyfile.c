@@ -3,7 +3,11 @@
  *
  * Utiliza los flujos de datos de C para hacer un programa que hace una copia identica de un archivo
  * con un nombre diferente o con el mismo nombre en una ubicación diferente.
+ *
+ * Created by Darío Welcome <welcomedario9@gmail.com> on 19/11/20.
+ * Copyright © 2020 Darío Welcome. All rights reserved.
  */
+
 
 // bibliotecas
 #include <stdio.h>
@@ -12,7 +16,7 @@
 int filecopy(char *oldname, char *newname);
 
 int main() {
-    
+
     // variables del programa
     char origen[80], destino[80];
 
@@ -36,7 +40,7 @@ int main() {
  * Función de copiado de archivos
  */
 int filecopy(char *oldname, char *newname) {
-    
+
     // crea dos archivos y una variable
     FILE *oldfile, *newfile;
     int c;
@@ -63,7 +67,7 @@ int filecopy(char *oldname, char *newname) {
 	else
 	    break;
     }
-    
+
     // cierra ambos archivos
     fclose(newfile);
     fclose(oldfile);
