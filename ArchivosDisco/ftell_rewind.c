@@ -6,8 +6,8 @@
  *
  * void rewind(FILE *fp);
  *
- * Para determinal el valor del inidicador de posición del archivo use ftell(). El prototipo de esta
- * función esta en el encabezado STDIO.H
+ * Para determinar el valor del inidicador de posición del archivo use ftell(). El prototipo de está
+ * función está en el encabezado STDIO.H
  *
  * long ftell(FILE *fp);
  *
