@@ -21,10 +21,9 @@ int main() {
     	char origen[80], destino[80];
 
     	// obtiene los nombres de origen y destino
-    	printf("Ingrese el archivo de origen: ");
-	scanf("%s", origen);
+    	printf("Ingrese el archivscanf("%c", &option);ets(origen);
     	printf("Ingrese el archivo de destino: ");
-    	scanf("%s", destino);
+    	gets(destino);
 
     	// valida si se copió el archivo correctamente
     	if (filecopy(origen, destino) == 0)
@@ -56,7 +55,7 @@ int filecopy(char *oldname, char *newname) {
     	        // cierra el archvivo
 		fclose(newfile);
 
-             	char option = 'n';
+             	char option;
 
              	// consulta si se crea un nuevo archivo o se sobreescribe el actual
 		puts("El archivo de destino ya existe, desea sobreescribirlo: 's' - si, 'n' - no");
@@ -72,7 +71,7 @@ int filecopy(char *oldname, char *newname) {
 			case 'n':
 			case 'N':
 				printf("Ingrese el nuevo archivo de destino: ");
-				scanf("%s", newname);
+				gets(newname);
 				break;
 		}
         } 
