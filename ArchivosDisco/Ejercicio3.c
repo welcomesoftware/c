@@ -12,18 +12,17 @@ int main() {
 	// variables del programa
 	FILE *file;
 	int count = 0;
+	char c;
 
 	// abre el archivo y valida su apertura
 	if ((file = fopen("text.txt", "r")) == NULL)
 		return -1;
 
 	// lee un caracter al a vez y acumula
-	while (!feof(file)) {
-		if(fgetc(file) == '\n' || fgetc == '\0')
-			break;
-		count = (int) ftell(file);
+	while ((c = fgetc(file)) != EOF) {
+		count++; 
 	}
-
+	count -= 1;
 	printf("Cantidad de caracteres en el archivo: %d\n", count);
 	printf("Indicador posición: %ld\n", ftell(file));
 
