@@ -7,7 +7,8 @@
  * ria determinada. El valor de retorno es la cantidad de registros escritos, no
  * el numero de bytes por registro.
  *
- * Prototipo: size_t *fwrite(void *buffer, int size, int count, FILE *archivo);
+ * Prototipo: 
+ *  size_t fwrite(void *buffer, int size, int count, FILE *archivo);
  *
  * Los parámetros son: un apuntador a la zona de memoria de donde se obtendrán
  * los datos a escribir, el tamaño en bytes de cada registro que se escribira en
