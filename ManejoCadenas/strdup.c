@@ -8,7 +8,7 @@
  * Prototipo: char *strdup(char *origen);
  *
  * El argumento es un apuntador a la cadena de origen. La función retorna un 
- * apuntador a la cadena de destino, el espacio es asignado por malloc() o null
+ * apuntador a la cadena de destino, el espacio es asignado por malloc() o NULL
  * si la memoria necesaria no pudo ser asignada. Observe que strdup no es una 
  * función estándar ANSI C. puede que tal vez no esté presente o sea diferente
  * en otros compiladores.

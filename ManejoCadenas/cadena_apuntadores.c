@@ -12,7 +12,9 @@
 
 int main() {
 
-    /* apuntador a una variable tipo char */
+    // Apuntador a una variable tipo char
+    // Esto crea una constante de cadena que ya no puede ser modificado su valor dur-
+    // ante la ejecución del programa.
     char *mensaje = "Hello, world!";
     /**
      * La cadena es guardada en algun lugar en memoria y el apuntador es inicializado
@@ -26,11 +28,13 @@ int main() {
      * utilizado como tal.
      */
 
-    /*
+    /**
      * Esto es equivalente a la declaracion e inicializacion anterior
-     * mensaje[] == *mensaje: ambas notaciones significan un apuntador.
+     * mensaje[] == *mensaje: ambas notaciones significan un apuntador a una cadena,
+     * sin embargo esta cadena si puede ser modificado su valor durante la ejecución
+     * del programa. sin envargo la cantidad de elementos dentro de la cadena conti-
+     * nuará siendo la misma.
      */
-
     char mensaje2[] = "Hello, world!";
 
     /**
