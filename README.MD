@@ -9,5 +9,6 @@ Debido a que aún sigo aprendiendo el lenguaje de programación C. Este contenid
 y más alrededor del tiempo. Si te gusta este contenido y crees que puedes aportar tu conocimiento,
 siéntete libre de hacerlo, debido que a que así aprendemos todos.
 
-Created by *Darío Welcome* <welcomedario9@gmail.com> since **2018**.
-Copyright © 2020 Darío Welcome. *All rights reserved.*
+Created by *Darío Welcome* <welcomedario9@gmail.com> since **2018 - 2020**.
+
+Copyright © **2018 - 2020** Darío Welcome. *All rights reserved.*
