@@ -28,7 +28,7 @@
 #include <stdlib.h>
 
 
-// Main
+// Mai
 int main(int argc, char const *argv[])
 {
 	// conversion a entero
