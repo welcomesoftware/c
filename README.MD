@@ -5,10 +5,10 @@ hasta ejemplos de programación avanzados como lo son, apuntadores, apuntadores 
 estructuras simples y estructuras avanzadas, listas enlazadas, archivos de disco,
 funciones de biblioteca, nuestras propias bibliotecas, arboles binarios, etc.
 
-Debido a que aún sigo aprendiendo el lenguaje de programación C. Este contenido irá creciendo más
+Debido a que aún sigo aprendiendo el lenguaje de programación C, este contenido irá creciendo más
 y más alrededor del tiempo. Si te gusta este contenido y crees que puedes aportar tu conocimiento,
 siéntete libre de hacerlo, debido que a que así aprendemos todos.
 
-Created by *Darío Welcome* <welcomedario9@gmail.com> since **2018 - 2020**.
+Created by *Darío Welcome* <welcomedario9@gmail.com>
 
-Copyright © **2018 - 2020** Darío Welcome. *All rights reserved.*
+**Welcome © 2018 - 2020** *All rights reserved.*
