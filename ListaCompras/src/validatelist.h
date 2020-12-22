@@ -1,0 +1,1 @@
+int validatelist(char *listname);
