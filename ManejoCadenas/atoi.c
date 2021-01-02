@@ -19,7 +19,7 @@
  * entero resultante es regresado al programa que llama. Si no encuentra caracteres
  * convertibles, atoi() retorna cero.
  * 
- * Author: Darío Welcome, Email: <welcomedario9@gmail.com>
+ * Author Darío Welcome, Email <welcomedario9@gmail.com>
  * Copyright © Welcome 2019 - 2020 
  */
 

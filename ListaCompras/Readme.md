@@ -1,4 +1,3 @@
-
 # ListaCompras
 Este programa utiliza los conocimientos adquiridos hasta el momento para
 realizar un programa que pide al usuario que ingrese los items de una lista de
