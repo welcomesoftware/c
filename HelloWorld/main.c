@@ -1,6 +1,18 @@
+/**
+ * Programa: main.c
+ * Este programa imprime un "Hello, GhostBSD" en pantalla.
+ */
+
+// Bibliotecas
 #include <stdio.h>
 
-int main() {
-    printf("Domo Arigatto Mr Roboto!\n");
+
+// Main()
+int main() 
+{
+    // mensaje por pantalla
+    puts("Hello, GhostBSD!");
+
+    // termina el programa
     return 0;
 }
