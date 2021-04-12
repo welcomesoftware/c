@@ -1,0 +1,7 @@
+/home/welcome/Desarrollo/C/ordenamientoburbuja/build/CMakeFiles/install/strip.dir
+/home/welcome/Desarrollo/C/ordenamientoburbuja/build/CMakeFiles/install/local.dir
+/home/welcome/Desarrollo/C/ordenamientoburbuja/build/CMakeFiles/install.dir
+/home/welcome/Desarrollo/C/ordenamientoburbuja/build/CMakeFiles/list_install_components.dir
+/home/welcome/Desarrollo/C/ordenamientoburbuja/build/CMakeFiles/rebuild_cache.dir
+/home/welcome/Desarrollo/C/ordenamientoburbuja/build/CMakeFiles/edit_cache.dir
+/home/welcome/Desarrollo/C/ordenamientoburbuja/build/CMakeFiles/ordenamientoburbuja.dir

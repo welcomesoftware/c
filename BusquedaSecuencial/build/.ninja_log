@@ -1,0 +1,13 @@
+# ninja log v5
+0	79	1617264253099090214	CMakeFiles/busquedasecuencial.dir/main.c.o	b332a215b7999edc
+82	123	1617264253143088519	busquedasecuencial	7e91660f85b2e624
+0	55	1617265145421774677	CMakeFiles/busquedasecuencial.dir/main.c.o	b332a215b7999edc
+55	101	1617265145469774267	busquedasecuencial	7e91660f85b2e624
+1	58	1617265190865399081	CMakeFiles/busquedasecuencial.dir/main.c.o	b332a215b7999edc
+58	102	1617265190909398729	busquedasecuencial	7e91660f85b2e624
+0	58	1617265207849264857	CMakeFiles/busquedasecuencial.dir/main.c.o	b332a215b7999edc
+58	105	1617265207897264482	busquedasecuencial	7e91660f85b2e624
+0	54	1617265373484107476	CMakeFiles/busquedasecuencial.dir/main.c.o	b332a215b7999edc
+54	97	1617265373528107202	busquedasecuencial	7e91660f85b2e624
+35	257	1617307936211658110	CMakeFiles/busquedasecuencial.dir/main.c.o	b332a215b7999edc
+257	303	1617307936259661950	busquedasecuencial	7e91660f85b2e624

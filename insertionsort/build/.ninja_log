@@ -1,0 +1,7 @@
+# ninja log v5
+0	160	1617261986291614615	CMakeFiles/insertionsort.dir/main.c.o	fe37e62b080e84c
+162	206	1617261986335614496	insertionsort	e4e15878f8bb3c7
+0	48	1617262085003428695	CMakeFiles/insertionsort.dir/main.c.o	fe37e62b080e84c
+48	90	1617262085043428650	insertionsort	e4e15878f8bb3c7
+0	44	1617263733981987952	CMakeFiles/insertionsort.dir/main.c.o	fe37e62b080e84c
+44	95	1617263734033988256	insertionsort	e4e15878f8bb3c7

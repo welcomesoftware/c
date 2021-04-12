@@ -1,0 +1,7 @@
+/home/welcome/Desarrollo/C/insertionsort/build/CMakeFiles/install/strip.dir
+/home/welcome/Desarrollo/C/insertionsort/build/CMakeFiles/install/local.dir
+/home/welcome/Desarrollo/C/insertionsort/build/CMakeFiles/edit_cache.dir
+/home/welcome/Desarrollo/C/insertionsort/build/CMakeFiles/install.dir
+/home/welcome/Desarrollo/C/insertionsort/build/CMakeFiles/list_install_components.dir
+/home/welcome/Desarrollo/C/insertionsort/build/CMakeFiles/rebuild_cache.dir
+/home/welcome/Desarrollo/C/insertionsort/build/CMakeFiles/insertionsort.dir
