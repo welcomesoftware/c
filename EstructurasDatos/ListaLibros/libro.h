@@ -12,9 +12,9 @@
 #include <stdio.h>
 
 typedef struct Libro {
-		char *titulo;
-		char *autor;
-		char *isbn;
+	char *titulo;
+	char *autor;
+	char *isbn;
 } Libro;
 
 #endif // _LIBRO_H

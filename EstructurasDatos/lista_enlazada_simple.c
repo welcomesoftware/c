@@ -16,3 +16,14 @@
  * Insertar un elemento a la lista
  * Eliminar un elemento a la lista.
  */
+#include <stdio.h>
+
+typedef struct {
+  char* titulo;
+  char* autor;
+} Libro;
+
+typedef struct {
+  Libro* libro;
+  struct Nodo* siguiente;
+} Nodo;
