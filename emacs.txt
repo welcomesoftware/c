@@ -1,0 +1,5 @@
+Hola, este el el archivo emacs.
+
+C x C f
+C x C s
+C x u
