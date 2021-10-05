@@ -55,8 +55,8 @@ función. La forma general es:
 Este enunciado declara una función, *func()*, que retorna un apuntador a tipo. 
 
 * Ejemplos concretos
-** double *func(lista_de_parametros);
-** struct direccion *func(lista_de_parametros);
+* ```double *func(lista_de_parametros);```
+* struct direccion *func(lista_de_parametros);
 
 La primera declara una función que retorna un apuntador de tipo double. La segunda línea declara una
 función que retorna un apuntador a tipo direccion (que se supone que es una estructura definida por 
