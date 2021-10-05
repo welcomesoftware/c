@@ -43,3 +43,24 @@ llamada accesa argumentos de la manera siguiente:
 	apuntador *arg_ptr* para que apunte al primer argumento de la lista variable.
 * Para recuperar cada argumento llama a *va_arg()*, pasándole el apuntador *arg_ptr* y el tipo de 
 	dato del siguiente argumento.
+
+## Funciones que regresan un apuntador 
+
+Ya hemos visto funciones de C que regresan un apuntador al programa que las llama. Se debe utilizar 
+el operador de indirección (*) tanto en la declaración de la función como en la definición de la 
+función. La forma general es:
+
+```tipo *func(lista_de_parametros)```
+
+Este enunciado declara una función, *func()*, que retorna un apuntador a tipo. 
+
+* Ejemplos concretos
+** double *func(lista_de_parametros);
+** struct direccion *func(lista_de_parametros);
+
+La primera declara una función que retorna un apuntador de tipo double. La segunda línea declara una
+función que retorna un apuntador a tipo direccion (que se supone que es una estructura definida por 
+el usuario).
+
+No debemos confundir una función que retorna un apuntador y un apuntador a una función, lo cual son dos
+dos cosas diferentes.
