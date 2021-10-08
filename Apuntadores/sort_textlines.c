@@ -91,6 +91,7 @@ void sort(char *lines[], int n) {
 
 void printStrings(char *lines[], int n) {
     for (size_t i = 0; i < n; i++) {
-        printf("%s\n", lines[i]);
+        printf("%s, ", lines[i]);
     }
+    puts("");
 }
