@@ -25,6 +25,10 @@ int main()
     // que vaya de cero al numero que deseamos(n), debemos efectuar el modulo(%)
     // sobre rand() de la suma (n + 1) 
     // numero = rand() % (n + 1);    
+
+    // función srand()
+    // se utiliza esta función para evitar que los números aleatorios se repitan
+    // en cada llamada al programa.
     //--------------------------------------------------------------------------
 
     // salida de datos
