@@ -1,7 +1,7 @@
 /*
  * =====================================================================================
  *
- *       Filename:  test.c
+ *       Filename:  argumentos_main.c
  *
  *    Description:  Prueba 
  *
